@@ -8,6 +8,8 @@
 ** Projekten belül hozzatok létre egy „README.md” elnevezésű fájlt **
 
 * touch README.md
+* git add README.md
+* git commit
 
 ** A projekthez hozzatok létre egy gitignore fájlt, melyben rögzítsétek, hogy a txt,doc,docx,pdf kiterjesztésű fájlokat hagyjuk figyelmen kívül. **
 
@@ -36,5 +38,7 @@
 
 ** Rögzítsük ezt a változtatást a verzióban és pusholjátok fel a projektet a  saját github fiókotokba **
 
-*
+* git commit -m 'app.js és style.css változtatások'
+* git remote add origin https://github.com/rappaybalazs/git-vizsga-0205.git
+* git push -u origin main
 
